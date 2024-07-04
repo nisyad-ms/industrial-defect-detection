@@ -1,0 +1,16 @@
+[
+    {
+        "name": "mvtec_ad",
+        "version": 1,
+        "description": "A sampled ms-coco dataset.",
+        "type": "object_detection",
+        "format": "coco",
+        "root_folder": "datasets/processed/mvtect_ad_transistor",
+        "test": {
+            "index_path": "test.json",
+            "files_for_local_usage": [
+                "test.zip"
+            ]
+        }
+    }
+]

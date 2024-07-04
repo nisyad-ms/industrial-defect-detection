@@ -1,0 +1,7 @@
+# Ignore all .log files
+*.log
+
+# Ignore a specific directory
+datasets/
+
+# Ignore a specific file
