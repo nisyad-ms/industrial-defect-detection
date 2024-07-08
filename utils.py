@@ -103,7 +103,7 @@ class TorchDataset(torch.utils.data.Dataset):
 
         # If there are no targets (good image), return a dummy tensor with label 0
         if targets.numel() == 0:
-            targets = torch.tensor([0, -1, -1, -1, -1], dtype=torch.float32)
+            targets = torch.tensor([0, -1, -1, -1, -1], dtype=torch.float32).unsqueeze_(0)
 
         return img, targets
 

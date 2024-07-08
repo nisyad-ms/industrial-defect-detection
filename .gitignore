@@ -1,9 +1,12 @@
 # Ignore all .log files
 *.log
-.env
-*.png
+
 
 # Ignore a specific directory
 datasets/
+results/
+
 
 # Ignore a specific file
+.env
+*.png
