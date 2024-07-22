@@ -20,8 +20,7 @@ class GPTClient:
         self.client = AzureOpenAI(
             api_key=self.api_key,
             api_version=self.api_version,
-            base_url=f"{
-                self.api_base}openai/deployments/{self.deployment_name}/extensions",
+            base_url=f"{self.api_base}openai/deployments/{self.deployment_name}/extensions",
         )
 
     def get_response(self, base64_image: str, prompt: str, max_tokens: int = 500, raise_exception: bool = True) -> str:

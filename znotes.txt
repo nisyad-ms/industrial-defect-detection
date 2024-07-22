@@ -1,0 +1,95 @@
+### Multi-class Classification
+
+## transistor
+# zero-shot
+23 20 0 5
+0.48
+# 1-shot
+6 20 4 9
+0.39
+
+## screw
+# zero-shot
+19 18 22 33 23
+0.71875
+# one-shot
+2 18 21 39 22
+0.6375
+
+
+## bottle
+# zero-shot
+6 33 14
+0.6385542168674698
+# one-shot
+4 31 16
+0.6144578313253012
+
+## metal plate
+# zero-shot
+7 37 22
+0.6804123711340206
+# one-shot
+5 37 21
+0.6494845360824743
+
+
+### Binary Classification
+
+## transistor
+# zero-shot
+23 35
+0.58
+
+# 1-shot
+6 40
+0.46
+
+## screw
+# zero-shot
+19 111
+0.8125
+
+# one-shot
+2 118
+0.75
+
+
+## bottle
+# zero-shot
+6 60
+0.7951807228915663
+
+# one-shot
+4 63
+0.8072289156626506
+
+
+## metal plate
+# zero-shot
+7 71
+0.8041237113402062
+
+# one-shot
+5 71
+0.7835051546391752
+
+
+
+### F1Score
+
+# transistor
+zero-shot - 0.39
+1-shot - 0.45
+
+# screw
+zero-shot - 0.71
+1-shot - 0.63
+
+# bottle
+zero-shot - 0.57
+1-shot - 0.54
+
+# metal-plate
+zero-shot - 0.62
+1-shot - 0.57

@@ -26,5 +26,33 @@
                 "test.zip"
             ]
         }
+    },
+    {
+        "name": "mvtec_ad_bottle",
+        "version": 1,
+        "description": "A sampled ms-coco dataset.",
+        "type": "object_detection",
+        "format": "coco",
+        "root_folder": "datasets/processed/mvtec_ad_bottle",
+        "test": {
+            "index_path": "test.json",
+            "files_for_local_usage": [
+                "test.zip"
+            ]
+        }
+    },
+    {
+        "name": "mppd_ad_metal_plate",
+        "version": 1,
+        "description": "A sampled ms-coco dataset.",
+        "type": "object_detection",
+        "format": "coco",
+        "root_folder": "datasets/processed/mppd_ad_metal_plate",
+        "test": {
+            "index_path": "test.json",
+            "files_for_local_usage": [
+                "test.zip"
+            ]
+        }
     }
 ]
