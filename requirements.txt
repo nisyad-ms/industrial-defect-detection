@@ -1,0 +1,4 @@
+tenacity
+torch
+torchvision
+vision_datasets

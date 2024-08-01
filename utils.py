@@ -130,7 +130,7 @@ def convert_tensor_to_base64(tensor: torch.Tensor):
     # Encode the bytes buffer to Base64
     base64_image = base64.b64encode(buffer.getvalue()).decode("ascii")
 
-    return base64_image
+    return base64_image, "image/png"
 
 
 if __name__ == '__main__':
